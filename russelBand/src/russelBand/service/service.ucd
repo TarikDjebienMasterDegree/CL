@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="service" size="1149,593" id="russelBand.service" metadata="uml2-1.0" initialized="true" scrolledY="180" tag="1000" key="32303037303533312D313030302072757373656C42616E642F746172696B">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.0" name="ICarte" location="30,450" size="240,168" id="russelBand.service/ICarte" runTimeClassModel="premiereCase(),affecterCases(LrusselBand.service.ICase;LrusselBand.service.ICase;LrusselBand.service.ICase;),mesCases(),suivante(),troisiemeCase(),affecterPlateau(LrusselBand.service.IPlateau;),deuxiemeCase()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="217,105">
+      <children xsi:type="editmodel:MethodEditModel" name="affecterCases" id="russelBand.service/ICarte#affecterCases(LrusselBand.service.ICase;LrusselBand.service.ICase;LrusselBand.service.ICase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="affecterPlateau" id="russelBand.service/ICarte#affecterPlateau(LrusselBand.service.IPlateau;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deuxiemeCase" id="russelBand.service/ICarte#deuxiemeCase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mesCases" id="russelBand.service/ICarte#mesCases()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="premiereCase" id="russelBand.service/ICarte#premiereCase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="suivante" id="russelBand.service/ICarte#suivante()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="troisiemeCase" id="russelBand.service/ICarte#troisiemeCase()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/ICarte-Soyatec::Import->russelBand.service/IPlateau" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/ICarte-Soyatec::Import->russelBand.service/ICase" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,138"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0" name="IPlateau" location="600,480" size="172,78" id="russelBand.service/IPlateau" runTimeClassModel="suivante(LrusselBand.service.ICarte;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,15">
+      <children xsi:type="editmodel:MethodEditModel" name="suivante" id="russelBand.service/IPlateau#suivante(LrusselBand.service.ICarte;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/IPlateau-Soyatec::Import->russelBand.service/ICarte" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,38" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,89"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.3 //@children.3/@sourceConnections.0" name="IRecepteur" location="480,15" size="215,138" id="russelBand.service/IRecepteur" runTimeClassModel="retourneLaCase(),quiEstAuDessus(),recevoir(LrusselBand.service.IPorcelet;),quiEstEnDessous(),estSurLaCase(LrusselBand.service.ICase;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="192,75">
+      <children xsi:type="editmodel:MethodEditModel" name="estSurLaCase" id="russelBand.service/IRecepteur#estSurLaCase(LrusselBand.service.ICase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="quiEstAuDessus" location="-28,66" id="russelBand.service/IRecepteur#quiEstAuDessus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="quiEstEnDessous" id="russelBand.service/IRecepteur#quiEstEnDessous()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recevoir" id="russelBand.service/IRecepteur#recevoir(LrusselBand.service.IPorcelet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="retourneLaCase" id="russelBand.service/IRecepteur#retourneLaCase()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/IRecepteur-Soyatec::Import->russelBand.service/ICase" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,17"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/IRecepteur-Soyatec::Import->russelBand.service/IPorcelet" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="215,122" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,28"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.2 //@children.2/@sourceConnections.1" name="IPorcelet" location="900,208" size="229,168" id="russelBand.service/IPorcelet" runTimeClassModel="estMonteeSur(LrusselBand.service.IPorcelet;),oublier(),estSous(LrusselBand.service.IPorcelet;),initPosition(LrusselBand.service.IRecepteur;),avancer(),avancer(LrusselBand.service.ICase;),estSurLaCase(LrusselBand.service.ICase;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="206,105">
+      <children xsi:type="editmodel:MethodEditModel" name="avancer" id="russelBand.service/IPorcelet#avancer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="avancer" id="russelBand.service/IPorcelet#avancer(LrusselBand.service.ICase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estMonteeSur" id="russelBand.service/IPorcelet#estMonteeSur(LrusselBand.service.IPorcelet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estSous" id="russelBand.service/IPorcelet#estSous(LrusselBand.service.IPorcelet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estSurLaCase" id="russelBand.service/IPorcelet#estSurLaCase(LrusselBand.service.ICase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initPosition" id="russelBand.service/IPorcelet#initPosition(LrusselBand.service.IRecepteur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="oublier" id="russelBand.service/IPorcelet#oublier()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/IPorcelet->russelBand.service/IRecepteur*russelBand.service/IPorcelet-Soyatec::Import->russelBand.service/IRecepteur" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive, Import»" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,138"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/IPorcelet-Soyatec::Import->russelBand.service/ICase" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,89"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="russelBand.service/IRecepteur&lt;-russelBand.service/IPorcelet" source="//@children.3" target="//@children.4/@sourceConnections.3" targetEnd="//@children.3/@sourceConnections.2/@children.1" sourceEnd="//@children.3/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.2/@sourceConnections.0 //@children.3/@sourceConnections.1" name="ICase" location="50,223" size="213,138" id="russelBand.service/ICase" runTimeClassModel="quiEstAuSommet(),initCase(LrusselBand.service.IPorcelet;LrusselBand.service.ICarte;I),getIndice(),suivante(),recevoir(LrusselBand.service.IPorcelet;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="190,75">
+      <children xsi:type="editmodel:MethodEditModel" name="getIndice" id="russelBand.service/ICase#getIndice()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initCase" id="russelBand.service/ICase#initCase(LrusselBand.service.IPorcelet;LrusselBand.service.ICarte;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="quiEstAuSommet" id="russelBand.service/ICase#quiEstAuSommet()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recevoir" id="russelBand.service/ICase#recevoir(LrusselBand.service.IPorcelet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="suivante" id="russelBand.service/ICase#suivante()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/ICase-Soyatec::Import->russelBand.service/ICarte" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,138" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/ICase->russelBand.service/IRecepteur*russelBand.service/ICase-Soyatec::Import->russelBand.service/IRecepteur" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive, Import»" size="95,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,17" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,125"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="russelBand.service/ICase-Soyatec::Import->russelBand.service/IPorcelet" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,84"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.2" autoLocated="true" id="russelBand.service/IRecepteur&lt;-russelBand.service/ICase" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.3/@children.1" sourceEnd="//@children.4/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,138" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
